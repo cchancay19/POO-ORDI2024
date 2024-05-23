@@ -2,7 +2,7 @@ import java.util.List;
 
 public class Cliente {
 
-    //atributos
+    //Atributos de la clase Cliente
     private int idCliente;
     private String nombre;
     private String direccion;
@@ -24,7 +24,6 @@ public class Cliente {
     }
 
     //métodos
-
 
     public void agregarPedido(Pedido pedido){
         System.out.println("Agregando pedido");
