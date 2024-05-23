@@ -23,7 +23,7 @@ public class Cliente {
 
     }
 
-    //métodos
+    //métodos creados
 
     public void agregarPedido(Pedido pedido){
         System.out.println("Agregando pedido");
@@ -41,6 +41,7 @@ public class Cliente {
     public void verHistorial(){
         System.out.println("Historial de pedido");
     }
+
 
     //Métodos Getter and Setter
     public int getIdCliente() {
